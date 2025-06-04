@@ -7,7 +7,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 
 ### Customer-portal Application
 
-#### [`ff-customer-portal`](./ff-customer-portal)
+#### [`ff-customer-portal`](https://github.com/fairfinance-limited/ff-customer-portal)
 **Next.js Customer Application Platform**
 - **Purpose**: Primary interface for loan applications and account management
 - **Key Features**:
@@ -15,9 +15,9 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Loan tracking and repayment management
   - Customer profile and settings
 
-###  Administrative Applications
+### 🔧 Administrative Applications
 
-#### [`ff-internal-portal`](./ff-internal-portal)
+#### [`ff-internal-portal`](https://github.com/fairfinance-limited/ff-internal-portal)
 **internal portal Dashboard**
 - **Purpose**: Internal tools for Fair Finance staff to manage operations
 - **Key Features**:
@@ -26,9 +26,9 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Analytics and reporting
   - Data Visualizations and statistics
 
-###  Backend Services
+### ⚡ Backend Services
 
-#### [`ff-api`](./ff-api)
+#### [`ff-api`](https://github.com/fairfinance-limited/ff-api)
 **Core Business Logic API**
 - **Purpose**: Central backend service handling all business operations
 - **Key Responsibilities**:
@@ -38,7 +38,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Business rule enforcement and decision logic
   - Tracking & Reporting
 
-#### [`ff-proxy`](./ff-proxy)
+#### [`ff-proxy`](https://github.com/fairfinance-limited/ff-proxy)
 **Secure API Gateway**
 - **Purpose**: Reverse proxy for external service integration
 - **Technology**: NGINX on AWS EC2
@@ -49,7 +49,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 
 ### Data and Analytics
 
-#### [`ff-data-analysis`](./ff-data-analysis)
+#### [`ff-data-analysis`](https://github.com/fairfinance-limited/ff-data-analysis)
 **Financial Data Processing Platform**
 - **Purpose**: A robust analytics platform built to process, transform, and visualize financial data from various sources.
 - **Key Capabilities**:
@@ -59,7 +59,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - transforms financial and loan data into structured formats
   - Regulatory reporting and compliance analytics
 
-#### [`ff-tracker`](./ff-tracker)
+#### [`ff-tracker`](https://github.com/fairfinance-limited/ff-tracker)
 **Customer Journey Analytics**
 - **Purpose**: Application session tracking and user behavior analysis
 - **Key Features**:
@@ -68,7 +68,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 
 ### Data Synchronization Services
 
-#### [`ff-backup-sync`](./ff-backup-sync)
+#### [`ff-backup-sync`](https://github.com/fairfinance-limited/ff-backup-sync)
 **Anchor LMS Data Integration**
 - **Purpose**: Automated synchronization with loan management system
 - **Process**:
@@ -77,7 +77,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Secure storage in AWS S3 and restoration to RDS SQL Server
   - Data validation and integrity checking
 
-#### [`ff-obv-backup-sync`](./ff-obv-backup-sync)
+#### [`ff-obv-backup-sync`](https://github.com/fairfinance-limited/ff-obv-backup-sync)
 **Third-Party Data Backup Service**
 - **Purpose**: service automates the retrieval, transformation, and secure archival of Open Banking data tied to loan applications.
 - **Process**:
