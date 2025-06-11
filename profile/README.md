@@ -12,11 +12,11 @@ This software suite powers Fair Finance’s digital operations, covering custome
 - **Purpose**: Primary interface for loan applications and account management.
 - **Technology**:
   - Next.js 14 (React 18)
-  - UI : Material UI (MUI) 6
+  - UI: Material UI (MUI) 6
   - Testing: Playwright
 - **Third-Party & Services**:
     - ff-api(Central backend service)
-    - ff-tracker : User behavior tracking system for application form analytics
+    - ff-tracker: User behavior tracking system for application form analytics
 - **Key Features**:
   - Multi-step loan application form with validation
   - Loan tracking and repayment management
@@ -25,15 +25,15 @@ This software suite powers Fair Finance’s digital operations, covering custome
 ###  Administrative Applications
 
 #### [`ff-internal-portal`](https://github.com/fairfinance-limited/ff-internal-portal)
-**internal portal Dashboard**
+**Internal Portal Dashboard**
 - **Purpose**: Internal tools for Fair Finance staff to manage operations.
 - **Technology**:
   - Next.js RC (React RC)
   - UI : Material UI (MUI) 6
 - **Third-Party & Services**:
-    - ff-api: Central backend service.
-    - Google Analytics: Google Analytics Data API used for marketing analytics,user behavior analysis.
-    - Anthropic Claude: AI-powered analytics.
+    - ff-api: Central backend service
+    - Google Analytics: Google Analytics Data API used for marketing analytics and user behavior analysis
+    - Anthropic Claude: AI-powered analytics
     - AWS S3: Document storage and file management system via presigned URLs
 - **Key Features**:
   - Loan application review and processing
@@ -53,8 +53,8 @@ This software suite powers Fair Finance’s digital operations, covering custome
     - GitHub Actions: workflows for automated CI/CD
     - Terraform: manage core infrastructure
   - Databases:
-    - MongoDB: Customer data and forms, Operational Data
-    - SQL Server (RDS): loan data, Customer information, personal details
+    - MongoDB: Customer data and forms, operational data
+    - SQL Server (RDS): loan data, customer information, personal details
 - **Third-Party & Services**:
     - Microsoft Dynamics 365: CRM system integration using REST API
     - Anchor LMS: Loan Management System using SOAP/XML API
@@ -99,15 +99,15 @@ This software suite powers Fair Finance’s digital operations, covering custome
 - **Purpose**: A robust analytics platform built to process, transform, and visualize financial data from various sources.
 - **Technology**:
   - Node.js: Core processing engine for the ADP module
-  - Python : Powers the Dynamics CRM integration
+  - Python: Powers the Dynamics CRM integration
 - **Third-Party & Services**:
     - Microsoft Dynamics 365: CRM and customer data
     - Anchor LMS: Loan Management System
 - **Key Features**:
-  - processes financial and loan application data
-  - provides analytical insights
-  - transforms financial and loan data into structured formats
-  - retrieves and analyzes loan application data
+  - Processes financial and loan application data
+  - Provides analytical insights
+  - Transforms financial and loan data into structured formats
+  - Retrieves and analyzes loan application data
 
 #### [`ff-tracker`](https://github.com/fairfinance-limited/ff-tracker)
 **Customer Journey Analytics**
@@ -121,7 +121,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 - **Third-Party & Services**:
     - AWS Services:
       - Lambda: Event ingestion gateway with environment routing
-      - S3: Storage tracking data (events, user sessions)
+      - S3: Storage for tracking data (events, user sessions)
       - SQS FIFO: Message queuing for ordered event processing
 - **Key Features**:
   - Real-time session tracking and user flow mapping
@@ -145,7 +145,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Anchor LMS: Source of proprietary SQL backups (.sqb format)
   - SFTP server: Backup file retrieval point
   - Databases:
-    - SQL Server (RDS): sql server databases used to restore Anchor database backups data.
+    - SQL Server (RDS): SQL Server databases used to restore Anchor database backups data.
   - AWS Services:
     - EC2 Windows: Processing server for backup conversion
     - S3: Long-term storage for original and converted backups
@@ -160,7 +160,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 
 #### [`ff-obv-backup-sync`](https://github.com/fairfinance-limited/ff-obv-backup-sync)
 **Third-Party Data Backup Service**
-- **Purpose**: service automates the retrieval, transformation, and secure archival of Open Banking data tied to loan applications stored in CRM.
+- **Purpose**: Service that automates the retrieval, transformation, and secure archival of Open Banking data tied to loan applications stored in CRM.
 - **Technology**:
   - Node.js (Express.js API framework) with TypeScript
   - Deployment & Infrastructure:
