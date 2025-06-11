@@ -1,6 +1,6 @@
 # Fair Finance
-Fair Finance is a UK-based social business that specializes in providing affordable personal loans to financially excluded individuals. The company targeting customers who are typically rejected by mainstream banks or exploited by high-cost credit providers. See more [`fair finance`](https://fairfinance.org.uk/about-us/)
-, 
+Fair Finance is a UK-based social business that specializes in providing affordable personal loans to financially excluded individuals. The company targets customers who are typically rejected by mainstream banks or exploited by high-cost credit providers. See more [`fair finance`](https://fairfinance.org.uk/about-us/)
+
 This software suite powers Fair Finance’s digital operations, covering customer applications, internal tools, core business logic, analytics, data synchronization, and integrations.
 
 ## Overview
@@ -22,7 +22,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Loan tracking and repayment management
   - Customer profile and settings
 
-### 🔧 Administrative Applications
+###  Administrative Applications
 
 #### [`ff-internal-portal`](https://github.com/fairfinance-limited/ff-internal-portal)
 **internal portal Dashboard**
@@ -31,10 +31,10 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Next.js RC (React RC)
   - UI : Material UI (MUI) 6
 - **Third-Party & Services**:
-    - ff-api (Central backend service).
+    - ff-api: Central backend service.
     - Google Analytics: Google Analytics Data API used for marketing analytics,user behavior analysis.
     - Anthropic Claude: AI-powered analytics.
-    - AWS S3 : Document storage and file management system via presigned URLs.
+    - AWS S3: Document storage and file management system via presigned URLs
 - **Key Features**:
   - Loan application review and processing
   - Customer data management and CRM integration
@@ -69,7 +69,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 - **Key Features**:
   - API endpoints for customer-portal & internal-portal
   - Loan application processing.
-  - Secure Integration with external systems (Microsoft Dynamics 365 (CRM),Loan Management System(LMS), Open Banking Vision(obv))
+  - Secure Integration with external systems (Microsoft Dynamics 365 (CRM), Loan Management System(LMS), Open Banking Vision(obv))
   - Business rule enforcement and decision logic
   - Tracking & Reporting
 
@@ -90,7 +90,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
 - **Key Features**:
   - IP whitelisting for third-party API access
   - Credential management and request transformation
-  - Centralized access point for external integrations(e.g., Open Banking Vision, Dynamics 365)
+  - Centralized access point for external integrations (e.g., Open Banking Vision, Dynamics 365)
 
 ### Data and Analytics
 
@@ -145,7 +145,7 @@ This software suite powers Fair Finance’s digital operations, covering custome
   - Anchor LMS: Source of proprietary SQL backups (.sqb format)
   - SFTP server: Backup file retrieval point
   - Databases:
-    - SQL Server (RDS): sql server databases used to Restoring anchor database backups data.
+    - SQL Server (RDS): sql server databases used to restore Anchor database backups data.
   - AWS Services:
     - EC2 Windows: Processing server for backup conversion
     - S3: Long-term storage for original and converted backups
